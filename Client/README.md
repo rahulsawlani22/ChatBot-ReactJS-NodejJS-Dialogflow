@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![homepage](https://user-images.githubusercontent.com/41963601/84818478-30b24980-b034-11ea-95cd-fd112c995663.PNG)
 
 
-## Chat-Window Page
+## Chat-Window Page (As you click on the let's Chat icon.
 ![ChatWindow](https://user-images.githubusercontent.com/41963601/84818551-4c1d5480-b034-11ea-8d27-64394905b480.PNG)
 
 ## Available Scripts
