@@ -1,0 +1,124 @@
+.App {
+  
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 760px;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.signlink{
+  border: 3px solid black;
+  color: #343A40;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.signlink:hover{
+  text-decoration: none;
+  color:white;
+  border: 3px solid #343A40;
+  background-color:#343A40;
+
+}
+.logotext{
+  
+  font-size: large;
+  font-weight: normal;
+  padding: 20px;
+  
+ 
+}
+
+.App-header {
+  background-color: i;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.chatbox{
+  position: relative;
+  
+  left:400px;
+  top: 150px;
+  width: 400px;
+  margin: auto;
+  border: 5px;
+
+}
+.conversation{
+  width: 100%;
+      min-height: 400px;
+      padding: 20px 40px;
+      background-color: #1A2035;
+      border: 5px #343A40;
+      border-top-left-radius:20px ;
+
+}
+
+.messagebox
+{
+  width: 100%;
+ 
+  
+}
+.text-input{
+  width: 100%;
+      border: none;
+      padding: 5px;
+      height: 50px;   
+}
+.chat-bubble {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.chat-bubble.ai {
+  justify-content: flex-end;
+}
+
+.chat-bubble.ai .chat-content {
+  background-color: #4c9689;
+}
+
+.chat-content {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #0747a7;
+  color: white;
+  border-top-left-radius: 10px;
+}
+.letschat{
+  position: absolute;
+  left: 1000px;
+  top:200px;
+  width: 400px;
+}
+.letschat:hover{
+  content: url(./circle-cropped\ \(1\).png);
+}
